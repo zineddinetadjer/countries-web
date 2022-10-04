@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#select {
+  width: 10em;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#region-cont {
+  padding: 0.5rem 1rem;
+}
+
+#region-cont ul {
+  list-style: none;
+}
+
+#region-cont li {
+  cursor: pointer;
+}

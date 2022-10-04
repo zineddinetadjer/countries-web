@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  border-bottom: 2px solid #c4c4c4;
+}
+#logo {
+  font-weight: 800;
+}
+#dark {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0 0.5rem;
+  background-color: white;
+  border-radius: 15px;
+  border: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+#dark:hover {
+  background-color: #c4c4c431;
+}
+#dark img {
+  width: 1rem;
+}

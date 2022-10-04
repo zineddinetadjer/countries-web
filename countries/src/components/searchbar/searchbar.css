@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.searchbar {
+  padding: 0.25em;
+  height: 2em;
+  width: 20em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchbar img {
+  height: 1em;
+  width: 1rem;
+}
+.searchbar input {
+  outline: none;
+  border: 0;
+}
