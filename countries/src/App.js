@@ -10,6 +10,7 @@ import SelectRegion from "./components/selectregion/SelectRegion";
 const App = () => {
   const [countries, setCountries] = useState([]);
   const [selectedRegion, setSelectedRegion] = useState(null);
+  const [searched, setSearched] = useState([]);
 
   const getCountries = () => {
     fetch("https://restcountries.com/v3.1/all", {
@@ -53,7 +54,11 @@ const App = () => {
           setSelectedRegion={setSelectedRegion}
         />
       </div>
-      <div className="country-container">
+      <div
+        className="country-container"
+        querry={searched}
+        setQuerry={setSearched}
+      >
         {countries.map((c) => (
           <Country
             name={c.name.official}
